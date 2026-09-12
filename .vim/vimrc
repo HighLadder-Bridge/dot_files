@@ -1,0 +1,37 @@
+source ~/.vim/options.vim
+source ~/.vim/keybinds.vim
+
+" Leader キーをスペースキーに変更
+" let g:mapleader = "\<Space>"
+
+" タブの切り替え
+nnoremap <Leader>h :tabprev<CR>
+nnoremap <Leader>l :tabnext<CR>
+
+" NERDTree 用のキーマップ
+"nnoremap <Leader>nt :NERDTreeToggle<CR>
+"nnoremap <Leader>nf :NERDTreeFind<CR>
+"
+"
+
+let g:rustfmt_autosave = 1
+autocmd FileType rust setlocal ai
+
+call plug#begin()
+
+" List your plugins here
+"Plug 'tpope/vim-sensible'
+Plug 'vim-jp/vimdoc-ja'
+Plug 'whatyouhide/vim-gotham'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings' 
+Plug 'rust-lang/rust.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
+
+"For Japanes help documents
+set helplang=ja,en
+

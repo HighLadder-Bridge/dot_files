@@ -1,0 +1,11 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
+(define-package "macrostep" "0.9.5"
+  "Interactive macro expander."
+  '((cl-lib "0.5")
+    (compat "29"))
+  :url "https://github.com/emacsorphanage/macrostep"
+  :commit "8e8487712d150178be7297604d0f47fd036a6d8d"
+  :revdesc "8e8487712d15"
+  :keywords '("lisp" "languages" "macro" "debugging")
+  :authors '(("Jon Oddie" . "j.j.oddie@gmail.com"))
+  :maintainers '(("Jeremy Bryant" . "jb@jeremybryant.net")))

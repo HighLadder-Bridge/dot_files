@@ -1,0 +1,23 @@
+;; Emacs-W3 HTTP cookies file  -*- lexical-binding: t -*-
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ 'nil
+)
+(setq url-cookie-secure-storage
+ '((".yahoo.com"
+    [url-cookie "A1"
+		"d=AQABBGmtuGoCEBUQUq31fGGRelCNDGRGX8QFEgEBAQH-uWrCamCMyyMA_eMDAA&S=AQAAAnlqwXlo6ncc0RufGWyDiFU"
+		"月  9月 27 11:45:13 2027 GMT" "/" ".yahoo.com" t]
+    [url-cookie "A3"
+		"d=AQABBGmtuGoCEBUQUq31fGGRelCNDGRGX8QFEgEBAQH-uWrCamCMyyMA_eMDAA&S=AQAAAnlqwXlo6ncc0RufGWyDiFU"
+		"月  9月 27 11:45:13 2027 GMT" "/" ".yahoo.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here
